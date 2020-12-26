@@ -1,0 +1,202 @@
+@media (max-width: 1920px) {
+  /* line 2, app/assets/stylesheets/footerinner.scss */
+  footer {
+    margin: 5vw;
+  }
+  /* line 4, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_menu {
+    margin-bottom: 4vw;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 9, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_menu a {
+    font-size: 1.4vw;
+    color: #9896AE;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 6vw;
+  }
+  /* line 17, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: -2vw;
+    color: #9896AE;
+  }
+  /* line 23, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_help {
+    width: 30vw;
+    margin-bottom: 12vw;
+  }
+  /* line 26, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_help p {
+    font-size: 1.4vw;
+    line-height: 2vw;
+    margin-bottom: 2vw;
+  }
+  /* line 32, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites {
+    width: 32vw;
+  }
+  /* line 34, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites p {
+    font-size: 1.4vw;
+    line-height: 2vw;
+    margin-bottom: 3vw;
+  }
+  /* line 39, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites div.footer_sites_th {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 43, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites div.footer_sites_th img {
+    width: 6vw;
+  }
+  /* line 49, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info {
+    width: 100%;
+    color: #9896AE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 55, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.small_logo {
+    display: none;
+  }
+  /* line 57, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.small_logo img {
+    display: none;
+  }
+  /* line 62, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.big_logo img {
+    display: block;
+    width: 40vw;
+  }
+  /* line 67, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added {
+    margin-top: 6vw;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 71, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added p {
+    font-size: 1.4vw;
+    margin-right: 3vw;
+  }
+  /* line 75, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added p:last-child {
+    font-size: 1.4vw;
+    margin-right: 0vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* line 87, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_menu {
+    margin-top: -2vw;
+    margin-bottom: 3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 95, app/assets/stylesheets/footerinner.scss */
+  footer {
+    margin: 5vw;
+  }
+  /* line 97, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_menu {
+    margin-bottom: 10vw;
+    margin-top: 15vw;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 102, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_menu a {
+    font-size: 3.8vw;
+    color: #9896AE;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10vw;
+  }
+  /* line 110, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info {
+    margin-bottom: 16vw;
+    color: #9896AE;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 115, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_help {
+    width: 75vw;
+    margin-bottom: 8vw;
+  }
+  /* line 118, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_help p {
+    font-size: 3.6vw;
+    line-height: 5.8vw;
+    margin-bottom: 4vw;
+  }
+  /* line 125, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites p {
+    width: 75vw;
+    font-size: 3.6vw;
+    line-height: 5.8vw;
+    margin-bottom: 6vw;
+  }
+  /* line 131, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites div.footer_sites_th {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 136, app/assets/stylesheets/footerinner.scss */
+  footer div.footer_info div.footer_sites div.footer_sites_th img {
+    width: 16vw;
+  }
+  /* line 142, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info {
+    width: 100%;
+    color: #9896AE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 148, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.small_logo {
+    display: block;
+  }
+  /* line 150, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.small_logo img {
+    display: block;
+    width: 40vw;
+  }
+  /* line 156, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.big_logo img {
+    display: none;
+  }
+  /* line 161, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added {
+    margin-top: 6vw;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 165, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added p {
+    font-size: 3.4vw;
+    margin-right: 3vw;
+  }
+  /* line 169, app/assets/stylesheets/footerinner.scss */
+  footer div.added_info div.added_info_added p:last-child {
+    font-size: 3.4vw;
+    margin-right: 0vw;
+  }
+}
+
+/*# sourceMappingURL=footerinner.css-350415a570a250d901d5b5d830ffb3d5af2434381ed51356fc813e2d0b9a8523.map */

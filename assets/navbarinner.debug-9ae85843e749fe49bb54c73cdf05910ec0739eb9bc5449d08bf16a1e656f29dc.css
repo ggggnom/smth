@@ -1,0 +1,286 @@
+@media (max-width: 1920px) {
+  /* line 3, app/assets/stylesheets/navbarinner.scss */
+  body {
+    box-sizing: content-box;
+  }
+  /* line 5, app/assets/stylesheets/navbarinner.scss */
+  body nav {
+    margin-top: -2vw;
+  }
+  /* line 7, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width {
+    top: 0;
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw 0vw 5vw;
+    z-index: 1;
+    position: fixed;
+  }
+  /* line 16, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width:hover {
+    background-color: #C1F52F;
+  }
+  /* line 19, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.graphiklogo {
+    display: none;
+  }
+  /* line 22, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.fontlogo {
+    padding: 0vw;
+  }
+  /* line 24, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.fontlogo img {
+    display: block;
+    width: 16vw;
+  }
+  /* line 29, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0vw;
+  }
+  /* line 34, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th {
+    padding: 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2vw;
+  }
+  /* line 40, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #04005E;
+    display: inline-flex;
+    margin-right: 4vw;
+  }
+  /* line 46, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th a:hover {
+    color: #03003D;
+    text-decoration: none;
+    background-color: #C1F52F;
+  }
+  /* line 52, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th a:last-child {
+    margin-right: 6vw;
+  }
+  /* line 57, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.registration a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #04005E;
+    display: inline-flex;
+    margin-right: 1vw;
+  }
+  /* line 63, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.registration a:hover {
+    color: #03003D;
+    text-decoration: underline;
+    background-color: #C1F52F;
+  }
+  /* line 71, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menul img {
+    display: none;
+  }
+  /* line 79, app/assets/stylesheets/navbarinner.scss */
+  body div.menu_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* line 92, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.fontlogo img {
+    width: 23vw;
+  }
+  /* line 98, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th a {
+    font-size: 2vw;
+  }
+  /* line 103, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.registration a {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 124, app/assets/stylesheets/navbarinner.scss */
+  body {
+    box-sizing: content-box;
+  }
+  /* line 127, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width {
+    margin-top: 5vw;
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    z-index: 1;
+    position: fixed;
+  }
+  /* line 136, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.graphiklogo {
+    display: block;
+  }
+  /* line 138, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.graphiklogo img {
+    width: 10vw;
+  }
+  /* line 143, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.fontlogo img {
+    display: none;
+  }
+  /* line 147, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info {
+    padding: 0vw;
+  }
+  /* line 149, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th {
+    display: none;
+  }
+  /* line 151, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menu_info_th a:last-child {
+    margin-right: 0vw;
+  }
+  /* line 155, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.registration {
+    display: none;
+  }
+  /* line 159, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menul img {
+    display: block;
+    width: 7vw;
+  }
+  /* line 162, app/assets/stylesheets/navbarinner.scss */
+  body nav div.high_width div.menu_info div.menul img:hover .menu_mobile {
+    opacity: 1;
+  }
+  /* line 171, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile {
+    z-index: 2;
+    top: 0;
+    position: fixed;
+    opacity: 1;
+    display: none;
+    width: 104vw;
+    height: 100vh;
+    background-color: #04005E;
+  }
+  /* line 180, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.cancel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90vw;
+    padding: 5vw;
+  }
+  /* line 186, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.cancel img {
+    color: #75FEFA;
+    width: 10vw;
+  }
+  /* line 189, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.cancel img:hover .menu_mobile {
+    opacity: 0;
+  }
+  /* line 194, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.menu_mobile_th {
+    width: 100vw;
+  }
+  /* line 196, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.menu_mobile_th div {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  /* line 206, app/assets/stylesheets/navbarinner.scss */
+  body nav div.menu_mobile div.menu_mobile_th div a {
+    text-decoration: none;
+    font-size: 8vw;
+    color: #75FEFA;
+    margin-bottom: 8vw;
+  }
+}
+
+/*@media (max-width: 768px) {
+  nav {
+    div.high_width {
+      height: 5vw;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 4.7vw;
+      z-index: 1;
+      position: relative;
+      div.graphiklogo {
+        display: block;
+        padding: 0vw;
+        img {
+          display: block;
+          width: 10vw;
+        }
+      }
+      div.fontlogo {
+        img {
+          display: none;
+        }
+      }
+      div {
+        div{
+          display: none;
+        }
+        div.menul {
+          padding: 0vw;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          img {
+            display: block;
+            width: 7vw;
+          }
+        }
+      }
+    }
+
+    div.menu_mobile {
+      display: none;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      z-index: 2;
+      background-color: #04005E;
+      div.cancel {
+        img {
+
+        }
+      }
+      div.menu_mobile_th {
+        margin: 40vw ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          font-size: 8vw;
+          color: #75FEFA;
+          margin-bottom: 10vw;
+        }
+      }
+    }
+
+  }
+}*/
+
+/*# sourceMappingURL=navbarinner.css-1b9bd8ba78f50f9b4236e4bafd9e4ad9ad0afbfd4be8ab3d1b8e9875bad52ceb.map */
